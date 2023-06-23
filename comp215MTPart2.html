@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <script src="comp215MTPart2.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <h3>Grade Point Average Estimator</h3>
+        <br>
+        <table>
+            <tr>
+            <!-- TABLE HEADERS -->
+                <th><b>Course Name</b></th>
+                <th><b>Course Credit Units</b></th>
+                <th><b>Course Grade (Mark%)</b></th>
+                <th><b>Course Grade Points</b></th>
+            </tr>
+
+            <!-- ROW #1-->
+            <tr>
+                <!--CELL 1-->
+                <td>
+                    1.<select id="first" onclick="setCreditUnits(1)" onchange="setCreditUnits(1)">
+                        <option value="4" >COMP214 - Project Management</option>
+                        <option value="6" >COMP235 - Internet Application Development 2</option>
+                        <option value="5" >COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4" >COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5" >COMP258 - Object Oriented Software Development</option>
+                        <option value="4" >COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU1">
+                </td>
+                <td>
+                <input type="number" id="CCM1">
+                </td>
+                <td>
+                <input type="number" id="CGP1">
+                </td>
+
+            </tr> <!-- end of row 1-->
+            <!-- ROW #2-->
+            <tr>
+                <!--CELL 2-->
+                <td>
+                    2.<select id="second" onclick="setCreditUnits(2)" onchange="setCreditUnits(2)">
+                        <option value="4">COMP214 - Project Management</option>
+                        <option value="6">COMP235 - Internet Application Development 2</option>
+                        <option value="5">COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4">COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5">COMP258 - Object Oriented Software Development</option>
+                        <option value="4">COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU2">
+                </td>
+                <td>
+                <input type="number" id="CCM2">
+                </td>
+                <td>
+                <input type="number" id="CGP2">
+                </td>
+
+            </tr> <!-- end of row 2-->
+            <!-- ROW #3-->
+            <tr>
+                <!--CELL 3-->
+                <td>
+                    3.<select id="third" onclick="setCreditUnits(3)" onchange="setCreditUnits(3)">
+                        <option value="4">COMP214 - Project Management</option>
+                        <option value="6">COMP235 - Internet Application Development 2</option>
+                        <option value="5">COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4">COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5">COMP258 - Object Oriented Software Development</option>
+                        <option value="4">COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU3">
+                </td>
+                <td>
+                <input type="number" id="CCM3">
+                </td>
+                <td>
+                <input type="number" id="CGP3">
+                </td>
+
+            </tr> <!-- end of row 3-->
+            <!-- ROW #4-->
+            <tr>
+                <!--CELL 4-->
+                <td>
+                    4.<select id="fourth" onclick="setCreditUnits(4)" onchange="setCreditUnits(4)">
+                        <option value="4">COMP214 - Project Management</option>
+                        <option value="6">COMP235 - Internet Application Development 2</option>
+                        <option value="5">COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4">COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5">COMP258 - Object Oriented Software Development</option>
+                        <option value="4">COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU4">
+                </td>
+                <td>
+                <input type="number" id="CCM4">
+                </td>
+                <td>
+                <input type="number" id="CGP4">
+                </td>
+
+            </tr> <!-- end of row 4-->
+            <!-- ROW #5-->
+            <tr>
+                <!--CELL 5-->
+                <td>
+                    5.<select id="fifth" onclick="setCreditUnits(5)" onchange="setCreditUnits(5)">
+                        <option value="4">COMP214 - Project Management</option>
+                        <option value="6">COMP235 - Internet Application Development 2</option>
+                        <option value="5">COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4">COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5">COMP258 - Object Oriented Software Development</option>
+                        <option value="4">COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU5">
+                </td>
+                <td>
+                <input type="number" id="CCM5">
+                </td>
+                <td>
+                <input type="number" id="CGP5">
+                </td>
+
+            </tr> <!-- end of row 5-->
+            <!-- ROW #6-->
+            <tr>
+                <!--CELL 6-->
+                <td>
+                    6.<select id="sixth" onclick="setCreditUnits(6)" onchange="setCreditUnits(6)">
+                        <option value="4">COMP214 - Project Management</option>
+                        <option value="6">COMP235 - Internet Application Development 2</option>
+                        <option value="5">COMP236 - Operating Systems and Environmennt Configuration</option>
+                        <option value="4">COMP237 - System Analysis and Requirements Management</option>
+                        <option value="5">COMP258 - Object Oriented Software Development</option>
+                        <option value="4">COMP259 - Mobile Application Development</option></select>
+                </td>
+
+                <!--CELL 2,3,4-->
+                <td>
+                <input type="number" id="CCU6">
+                </td>
+                <td>
+                <input type="number" id="CCM6">
+                </td>
+                <td>
+                <input type="number" id="CGP6">
+                </td>
+
+            </tr> <!-- end of row 6-->
+            
+            <!-- Row for Total GP -->
+            <tr>
+                <td>
+                    <th colspan="1"></th>
+                    <th>Total GP:</th>
+                    <th><input type="number" id="CGP7"></th>
+                     
+                </td>
+                
+                <!-- Row for Average(GPA) -->
+                <tr>
+                    <td>
+                        <th colspan="1"></th>
+                        <th>Average(GPA)</th>
+                        <th><input type="number" id="CGP8"></th>
+                        </td>
+            <!-- Calculate Button -->
+            <tr>
+                <td>
+                    <th colspan="2"></th>
+                    <th><button type="button" onclick="Calculate();">Calculate GPA</button></th>
+                     
+                </td>
+            </tr>
+        </body>
+        </form>
+</html>
